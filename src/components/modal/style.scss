@@ -1,0 +1,33 @@
+.custum_class_input{
+  font-size: x-large;
+  font-weight: 600;
+  border-style: dashed;
+  margin-bottom: 10px;
+}
+
+.schedule-cancel-button{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.modal-content  {
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  border-radius: 10px !important;
+}
+
+.my-modal {
+  width: 25vw;
+  max-width: 90vw;
+}
+
+.modal-dialog {
+  position: absolute;
+  top: 200px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10040;
+  overflow: auto;
+}

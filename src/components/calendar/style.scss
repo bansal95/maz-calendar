@@ -1,0 +1,25 @@
+.calendar {
+  height: auto;
+  padding-top: 1.25em;
+  padding-bottom: 1.25em;
+
+  .week_day {
+    font-weight: bold;
+    font-size: 1em;
+  }
+  .date {
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+}
+
+body {
+  background-color: #fbf7f6;
+  @media (max-width: 768px) {
+    width:fit-content;  
+  }
+
+  @media (max-width: 768px) {
+    .modal-xs { width: 400px; }
+  }
+}
